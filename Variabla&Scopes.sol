@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: Unlicensed
+// from itu blockchain youtube videos
 pragma solidity ^0.8.0;
 
 contract Variables {
@@ -14,19 +15,14 @@ contract Variables {
     address addresss; // 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4 - 20 byte
 
     bytes32 data; // bytes1 => bytes32
-
-
     // Dynamic-Size Types
-
     string name;
 
     bytes datas;
 
     uint[] numbers; // [1, 2, 3, 4, 5]
 
-    mapping(uint => uint) dictionary;
-
-
+    mapping(uint => uint) dictionary;           
     // User Defined Value Types
 
     struct Human {
@@ -50,21 +46,11 @@ contract Variables {
     // == (equality)
     // != (inequality)
 
-
     // ether birimleri
 
     // 1 wei = 1
     // 1 gwei = 10^9
     // 1 ether = 10^18
-
-    // zaman birimleri 
-
-    // 1 == 1 seconds
-    // 1 minutes == 60 seconds
-    // 1 hours == 60 minutes
-    // 1 days == 24 hours
-    // 1 weeks == 7 days
-
 
     // State Variables
 
